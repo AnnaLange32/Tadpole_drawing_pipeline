@@ -1,0 +1,89 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===============================
+# PyCharm / IDEs
+# ===============================
+.idea/
+*.iml
+
+# VS Code (if ever used)
+.vscode/
+
+# ===============================
+# Logs & runtime files
+# ===============================
+*.log
+*.out
+*.pid
+
+# ===============================
+# OS-specific
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Jupyter (if applicable)
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Environment / secrets
+# ===============================
+.env
+.env.*
+*.env
+
+# ===============================
+# NAO / qi-related (safe defaults)
+# ===============================
+# Compiled shared libraries
+*.so
+*.dll
+*.dylib
+
+# Generated cache / temp dirs
+.cache/
+tmp/
+
+# ===============================
+# Coverage / testing
+# ===============================
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# ===============================
+# Misc
+# ===============================
+*.swp
+*.swo
+/qi-3.1.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+
+
+# ===============================
+# Ignore image data & ratings
+# ===============================
+*.png
+*.jpg
+*.csv
+*.npy
+*.task
